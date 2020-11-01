@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	text-align:center;
+	background-color:yellow;
+	font-size:20px;
+	font-family:sans-serif;
+	padding:15px;
+}
+body{
+	background-color:cyan;
+
+}
+.score_board{
+	text-align:center;
+	border:2px solid yellow;
+	border-radius:5px;
+	margin:20px auto;
+	font-size:30px;
+	width:170px;
+	
+	position:relative;
+	padding:15px 20px;
+}
+.badge{
+	position:absolute;
+	background:red;
+	color:white;
+	font-size:15px;
+	font-family:sans-serif;
+
+
+}
+#user_lable{
+	position:absolute;
+	left:-20px;
+	top:23px;
+
+
+}
+#comp_lable{
+	right:-23px;
+	top:23px;
+}
+.results{
+	font-size:27px;
+	font-family:sans-serif;
+	text-align:center;
+	font-weight:bold;
+}
+.choices{
+	text-align:center;
+	margin:20px 0;
+
+	
+}
+.choice{
+	display:inline-block;
+	border:2px solid yellow;
+	border-radius:50%;
+	margin:0 20px;
+	
+
+}
+.action_message{
+	font-weight:bold;
+	text-align:center;

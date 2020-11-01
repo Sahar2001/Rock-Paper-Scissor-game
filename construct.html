@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+		}
+header{
+	text-align:center;
+	background-color:yellow;
+	font-size:20px;
+	font-family:sans-serif;
+	padding:15px;
+}
+body{
+	background-color:black;
+
+}
+.score_board{
+	text-align:center;
+	border:2px solid yellow;
+	border-radius:5px;
+	margin:20px auto;
+	font-size:30px;
+	width:170px;
+	color:white;
+	margin-top: 80px;
+	
+	position:relative;
+	padding:15px 20px;
+}
+.badge{
+	position:absolute;
+	background:red;
+	color:white;
+	font-size:15px;
+	font-family:sans-serif;
+
+
+}
+#user_lable{
+	position:absolute;
+	left:-20px;
+	top:23px;
+
+
+}
+#comp_lable{
+	right:-23px;
+	top:23px;
+}
+
+.results{
+	font-size:27px;
+	font-family:sans-serif;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+}
+		.choice{
+			text-align:center;
+
+
+		}
+		.choices{
+			display:inline-block;
+			border:3px solid white;
+			border-radius:50%;
+			padding:12px;
+			box-shadow:3px 3px 3px 3px red;
+			margin:15px;
+		}
+		.choices:hover{
+			cursor:pointer;
+			box-shadow:4px 4px 5px yellow;
+		}
+		.green_glue{
+			border:3px solid green;
+		}
+		.red_glue{
+			border:3px solid red;
+		}
+		.blue_glue{
+			border:3px solid blue;
+		}
+		.action_message{
+	        font-weight:bold;
+	        text-align:center;
+	        color:white;
+	        margin-top: 50px;
+		}
+
+		
+		
+	</style>
+	<div class="score_board">
+				<div id="user_lable" class="badge">User</div>
+				<div id="comp_lable"class="badge">Comp</div>
+				<span id="user_score">0</span>:<span id="comp_score">0</span>
+			</div>
+			<div>
+				<p class="results">Paper Covers Rock, You Win!</p>
+			</div>
+			<div>
+	<div class="choice">
+		
+	<div id="r" class="choices" >
+		<img  src="Screenshot (39).png">
+	</div>
+	<div id="p"class="choices" >
+		<img  src="Screenshot (41).png">
+	</div>
+	<div id="s"class="choices" >
+		<img src="Screenshot (42).png">
+	</div>
+</div>
+<div class="action_message">It is your Move!</div>
+	<script src="app.js">
+	
+	</script>
+
+</body>
+</html>
